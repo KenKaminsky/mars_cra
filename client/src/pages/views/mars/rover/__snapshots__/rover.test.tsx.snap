@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rover is being rendered 1`] = `
+.c0 {
+  position: relative;
+  display: inline-grid;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  background: transparent;
+}
+
+.c0:hover {
+  border: 2px solid white;
+}
+
+.c0::before {
+  content: '';
+  height: 0;
+  display: inline-block;
+  padding-top: 100%;
+  width: 1px;
+  position: relative;
+}
+
+.c0 .content {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+}
+
+.c2 {
+  border: solid white;
+  border-width: 0 6px 6px 0;
+  display: inline-block;
+  padding: 6px;
+  -webkit-transform: rotate( 135deg );
+  -ms-transform: rotate( 135deg );
+  transform: rotate( 135deg );
+}
+
+.c1 {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  -webkit-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  background-image: url(rover1.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+<div
+  className="c0 c1"
+  data-testid="rover-1234-114564"
+  x={2}
+  y={2}
+  z={90}
+>
+  <div
+    className="content"
+  >
+    <div
+      className="c2"
+      z={90}
+    />
+  </div>
+</div>
+`;
